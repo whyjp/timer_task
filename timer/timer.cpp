@@ -1,7 +1,6 @@
-#include "Timer.h"
+#include "timer.h"
 #include <functional>
 #include <time.h>
-#include <condition_variable>
 
 Timer::Timer() :m_Working(false)
 {

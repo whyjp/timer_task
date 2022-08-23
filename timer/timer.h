@@ -6,7 +6,7 @@
 #include <thread>
 #include <atomic>
 #include <mutex>
-#include <functional>
+#include <condition_variable>
 
 class Timer
 {
